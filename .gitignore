@@ -1,0 +1,7 @@
+# Ignore Python cache and virtual environment
+__pycache__/
+*.pyc
+venv/
+dappoai/.vscode
+dappoai/openairinterface5g/cmake_targets/ran_build
+dappoai.zip

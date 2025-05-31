@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-worker
+spec:
+  nodeSelector:
+    kubernetes.io/hostname: nextg-01.ece.ncsu.edu
+  containers:
+  - name: nginx
+    image: nginx
