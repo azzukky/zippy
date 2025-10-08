@@ -5,3 +5,5 @@ venv/
 dappoai/.vscode
 dappoai/openairinterface5g/cmake_targets/ran_build
 dappoai.zip
+dappoai/openairinterface5g.zip
+phy
